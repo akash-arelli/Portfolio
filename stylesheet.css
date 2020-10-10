@@ -1,0 +1,86 @@
+html,
+body{
+
+    height: 100%;
+}
+
+
+#cover{
+    height: 100%;
+    
+    background:#222 url(img/cover.png)  center no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+   text-shadow: 2px 2px #575757;
+   position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+#cover-caption
+{
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.section-content{
+  padding: 5rem;
+}
+
+#about{
+    background: url('img/cover.png') bottom no-repeat ;
+    background-size: cover;
+    position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.about-text{
+    background: rgba(0, 0, 0, 0.664);
+    color: rgb(243, 237, 237);
+    padding: 1.875rem;
+}
+#footer-main{
+background: rgb(255, 255, 255);
+color: rgb(2, 2, 2);
+font-size: 1rem;
+padding: 2rem 0;
+}
+
+#Nav-bar{
+    position: fixed;
+    width: 100%;
+    color: black;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(255,255,255,.4);
+     height:50px;
+      border-bottom: 1px solid #909090;
+      top: 0px;
+      z-index: 10000;
+}
+
+#Education{
+    text-align: center;
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
